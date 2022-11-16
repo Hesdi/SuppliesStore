@@ -5,5 +5,5 @@ from . import views
 
 app_name = 'blog'
 urlpatterns = [
-    path('', views.start, name='start'),
+    path('', views.index, name='index'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
