@@ -44,6 +44,15 @@ Site Creation Steps:
 
 
 - [ ] User Page
+	- [ ] Personal Data
+	- [ ] Profile
+	- [ ] Orders
+	- [ ] Comments and References
+	- [ ] Subscriptions
+	- [ ] Security
+
+
+
 - [ ] Product Page
 - [ ] Billing Page
 - [ ] Help Page
@@ -54,7 +63,7 @@ Site Creation Steps:
 
 
 
-
+- [ ] Accessibility Mode
 - [ ] SiteMap [https://www.quicksprout.com/creating-website-sitemap/]
 - [ ] MiniGame [Loading = Snake game]
 - [ ] Clever Search [https://seller-edu.ozon.ru/docs/how-to-sell-effectively/advertising-of-goods/kak-rabotaet-poisk-na-ozon.html]
