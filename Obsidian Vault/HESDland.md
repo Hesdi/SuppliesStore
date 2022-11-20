@@ -9,7 +9,6 @@ Site Creation Steps:
 		- [ ] User Interface
 			- [ ] Sign in
 			- [ ] Orders
-			- [ ] Favourite
 			- [ ] Cart
 		- [ ] Extra Features
 			- [ ] Premium
@@ -19,14 +18,23 @@ Site Creation Steps:
 			- [ ] Referal Programms
 			- [ ] GIft Certificates
 			- [ ] Map
-			- [ ] HESDIand for Business
+			- [ ] Cant see?
+			- [ ] Favourite
+			- [ ] back to top
 	- [ ] End Description
 		- [ ] Let Us Help You
+			- [ ] Contacts
+			- [ ] Your Account
+			- [ ] Your Orders
+			- [ ] Manage Your Content and Devices
 			- [ ] Help
 		- [ ] Get to Know Us
+			- [ ] About HESDI
+			- [ ] Shipping Rates
+			- [ ] Returns & Replacements
 		- [ ] Make Money with Us
 			- [ ] Sell on HESDIand
-		- [x] AccessibilityMode
+			- [ ] Advertise Your Products
 		- [ ] HESDi Payment Products
 			- [ ] HESDI card
 			- [ ] Shop with Points
