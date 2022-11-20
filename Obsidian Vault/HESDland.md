@@ -1,7 +1,7 @@
 Site Creation Steps:
 - [ ] Base
 	- [ ] Navbar
-		- [ ] Lang&Address
+		- [ ] Lang&Address&Currency
 		- [ ] Search
 			- [ ] IN Features
 			- [ ] OUT Features
@@ -12,24 +12,26 @@ Site Creation Steps:
 			- [ ] Favourite
 			- [ ] Cart
 		- [ ] Extra Features
-			- [ ] HESDI card
 			- [ ] Premium
 			- [ ] Sales!
 			- [ ] Brands
 			- [ ] Installments
-			- [ ] Sell on HESDIand
 			- [ ] Referal Programms
 			- [ ] GIft Certificates
-			- [ ] Help
 			- [ ] Map
 			- [ ] HESDIand for Business
 	- [ ] End Description
 		- [ ] Let Us Help You
+			- [ ] Help
 		- [ ] Get to Know Us
 		- [ ] Make Money with Us
-		- [ ] Sponsoring
-		- [ ] Connect with Us
-		- [ ] AccessibilityMode
+			- [ ] Sell on HESDIand
+		- [x] AccessibilityMode
+		- [ ] HESDi Payment Products
+			- [ ] HESDI card
+			- [ ] Shop with Points
+			- [ ] Reload Your Balance
+			- [ ] HESDI Currency Converter
 
 
 
@@ -64,6 +66,7 @@ Site Creation Steps:
 - [ ] SiteMap (https://www.quicksprout.com/creating-website-sitemap/)
 - [ ] MiniGame [Loading = Snake game]
 - [ ] Clever Search (https://seller-edu.ozon.ru/docs/how-to-sell-effectively/advertising-of-goods/kak-rabotaet-poisk-na-ozon.html)
+- [ ] Shop with Points
 
 
 
