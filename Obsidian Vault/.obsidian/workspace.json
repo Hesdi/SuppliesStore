@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7c22f4b29fabae81",
+        "id": "863e3a86616dfbaa",
         "type": "tabs",
         "children": [
           {
-            "id": "43dfe07e85c54f3a",
+            "id": "11029faeb5f8f605",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1981aa3a93c2ae34",
@@ -137,6 +136,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "43dfe07e85c54f3a",
-  "lastOpenFiles": []
+  "active": "11029faeb5f8f605",
+  "lastOpenFiles": [
+    "Motivashka.md",
+    "HESDland.md"
+  ]
 }

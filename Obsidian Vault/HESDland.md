@@ -56,22 +56,14 @@ Site Creation Steps:
 - [ ] Product Page
 - [ ] Billing Page
 - [ ] Help Page
+- [ ] Referals Page
 
 
 
-
-
-
-
-- [ ] Accessibility Mode
-- [ ] SiteMap [https://www.quicksprout.com/creating-website-sitemap/]
+- [ ] Accessibility Mode [scaling]
+- [ ] SiteMap (https://www.quicksprout.com/creating-website-sitemap/)
 - [ ] MiniGame [Loading = Snake game]
-- [ ] Clever Search [https://seller-edu.ozon.ru/docs/how-to-sell-effectively/advertising-of-goods/kak-rabotaet-poisk-na-ozon.html]
-
-
-
-
-
+- [ ] Clever Search (https://seller-edu.ozon.ru/docs/how-to-sell-effectively/advertising-of-goods/kak-rabotaet-poisk-na-ozon.html)
 
 
 
