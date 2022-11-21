@@ -1,4 +1,8 @@
-/* NAVBAR STYLING STARTS
+/* NAVBAR STYLING STARTS */
+*{
+  list-style: none;
+  text-decoration: none;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -13,11 +17,11 @@
    .img_logo{
     width: 150px;
    }
-   /* LOGO 
+   /* LOGO */
    .logo {
     font-size: 32px;
    }
-   /* NAVBAR MENU
+   /* NAVBAR MENU*/
    .menu {
     display: flex;
     gap: 1em;
@@ -32,14 +36,14 @@
    .menu li {
     padding: 5px 14px;
    }
-   /* DROPDOWN MENU
+   /* DROPDOWN MENU*/
    .services {
     position: relative; 
    }
    .dropdown {
     background-color: rgb(173, 153, 23);
     padding: 1em 0;
-    position: absolute; /*WITH RESPECT TO PARENT
+    position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
     top: 35px;
@@ -214,13 +218,13 @@
 	vertical-align: top;
 }
 
-/* Footer left
+/* Footer left*/
 
 .footer-distributed .footer-left{
 	width: 40%;
 }
 
-/* The company logo
+/* The company logo*/
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -232,7 +236,7 @@
 	color:  lightseagreen;
 }
 
-/* Footer links
+/* Footer links*/
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
@@ -255,7 +259,7 @@
 	margin: 0;
 }
 
-/* Footer Center
+/* Footer Center*/
 
 .footer-distributed .footer-center{
 	width: 35%;
@@ -313,7 +317,7 @@
   content: none;
 }
 
-/* Footer Right
+/* Footer Right*/
 
 .footer-distributed .footer-right{
 	width: 20%;
@@ -356,7 +360,7 @@
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries
+/* If you don't want the footer to be responsive, remove these media queries*/
 
 @media (max-width: 880px) {
 
@@ -433,4 +437,3 @@
   color: #6cff00;
   text-align: center;
 }
- */

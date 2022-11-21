@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+title{
+    text-transform: capitalize;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+}
+
+header nav{
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    color: wheat;
+}
+
+header nav div span input{
+    width: 950px;
+    padding: 15px 5px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+}
+header nav div h4{
+    color: white;
+    font-size: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+header nav ul li a{ 
+    color: white;
+    font-size: 20px;
+
+}
+
+.sapn{
+    background-color: white;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.sapn img{
+    padding-right: 10px;
+}
+
+.nav2{
+    width: 100%;
+    background-color: #37475A;
+}
+
+.nav2 nav{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.nav2 nav h3{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav2 nav ul {
+width: 40%;
+margin-left: 20px;
+}
+
+.nav2 nav ul li a{ 
+    color: white;
+}

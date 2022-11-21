@@ -7,23 +7,63 @@
     <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
 </head>
 <body>
-<div class="navbar1">
-    <img src="static\store\media\flag.png" alt="" class="flag">
-    <img src="static\store\media\favorites.png" alt="" class="favorites">
-    <img src="static\store\media\cart.png" alt="" class="cart">
+<header>
+  <nav>
     <img src="static\store\media\logo.png" alt="" class="logo">
     <img src="static\store\media\geoloc.png" alt="" class="geoloc">
+    <a href="#">
+      <h6>Deliver to</h6><h3>Kyrgyzstan</h1>
+    </a>
+
 
     <div class="search-pan">
         <input type="text" name="search-text" class="search-text" placeholder="Search"/>
     </div>
 
     <div class="search-div">
-        <img src="static\store\media\search.png" alt="" class="search-icon">
+      <img src="static\store\media\search.png" alt="" class="search-icon">
     </div>
-</div>
 
-<div class="navbar2">
+    <ul>
+      <li>
+        <a href="#">
+          <h4>$ USD</h4>
+        </a>
+      </li>
+      <li><div class="lang">
+        <a href="#">
+          <img src="static\store\media\flag.png" alt="" class="flag">
+          <h3>EN</h3>
+        </a>
+      </div></li>
+      <li><a href="#"><img src="static\store\media\cart.png" alt="" class="cart"></a></li>
+      <li><a href="#"><img src="static\store\media\favorites.png" alt="" class="favorites"></a></li>
+    </ul>
+
+    <div claass="sign-in">
+        <a href="#openModal">
+            <img src="static\store\media\profile.png" alt="" class="profile">
+        </a>
+        <div id="openModal" class="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Название</h3>
+                <a href="#close" title="Close" class="close">×</a>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <input type="text" name="username" class="username form-control" placeholder="Username"/>
+                  <input type="password" name="password" class="password form-control" placeholder="password"/>
+                  <input class="btn login" type="submit" value="Login" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </nav>
+  <div class="nav2">
     <img src="static\store\media\menbar.png" alt="">
     <menu>
         <a href="#" class="Menu">MENU</a>
@@ -43,7 +83,8 @@
 
         <a href="#" class="l6">Sales!</a>
     </li>
-</div>
+  </div>
+</header>
 
 <div class="endbar">
 
