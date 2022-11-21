@@ -9,3 +9,7 @@ def index(request):
 
 def test(request):
     return render(request, 'store/test.html')
+
+
+def premium(request):
+    return render(request, 'store/premium.html')
