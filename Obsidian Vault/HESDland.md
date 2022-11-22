@@ -1,4 +1,4 @@
-Site Creation Steps:
+.Site Creation Steps:
 - [ ] Base
 	- [ ] Navbar
 		- [ ] Lang&Address&Currency

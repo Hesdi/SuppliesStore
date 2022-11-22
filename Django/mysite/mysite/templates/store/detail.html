@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}{{product.product_name}}{% endblock %}
+
+{% block content %}
+<div class="theart">
+    <div>
+        <h2>{{product.product_name}}</h2>
+    {%if product.was_published_recently%}
+    <h1>NEW!</h1>{%endif%}
+    </div>
+
+    <h3>{{product.product_date}}</h3>
+    <p>{{product.product_description}}</p>
+</div>
+
+<div class="your_com">
+    <form action="{% url 'store:leave_comment' product.id%}" method="POST">
+
+        {% csrf_token %}
+
+        <input type="text" class="form" required placeholder="Your name" name="name"><br>
+        <textarea name="text" class="form" required placeholder="Comment's text" cols="50" rows="5"></textarea><br>
+
+        <button type="submit">Leave comment</button>
+    </form>
+</div>
+
+{% if latest_comments_list%}
+{%for c in latest_comments_list%}
+<li>
+    <div class="comments">
+        <p class="comm">
+            <strong>{{c.auth_name}}</strong>
+        </p>
+        <p class="zabal">
+            {{c.comm_text}}
+        </p>
+    </div>
+</li>
+{%endfor%}
+{%else%}
+    <div class="comments">
+        <h4>No Comments</h4>
+    </div>
+{%endif%}
+
+
+
+
+{% endblock %}

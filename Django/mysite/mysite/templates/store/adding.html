@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}New Article{% endblock %}
+
+{% block content %}
+
+<div class="your_product">
+    <form action="{% url 'store:add_product'%}" method="POST">
+        {% csrf_token %}
+        <input type="text" required placeholder="Name your article" name="prod_name"><br>
+        <textarea type="text" required placeholder="Article's text" cols="100" rows="20" name="prod_text"></textarea><br>
+        <input type="submit">
+    </form>
+</div>
+
+
+{% endblock %}
