@@ -20,7 +20,6 @@
 
         {% csrf_token %}
 
-        <input type="text" class="form" required placeholder="Your name" name="name"><br>
         <textarea name="text" class="form" required placeholder="Comment's text" cols="50" rows="5"></textarea><br>
 
         <button type="submit">Leave comment</button>
@@ -32,7 +31,7 @@
 <li>
     <div class="comments">
         <p class="comm">
-            <strong>{{c.auth_name}}</strong>
+            <strong>{{c.author}}</strong>
         </p>
         <p class="zabal">
             {{c.comm_text}}

@@ -46,6 +46,6 @@ def leave_comment(request, product_id):
     except:
         raise Http404('Product Not Found')
 
-    a.comment_set.create(auth_name=request.POST['name'], comm_text=request.POST['text'])
+    a.comment_set.create(comm_text=request.POST['text'])
 
     return HttpResponseRedirect(reverse('store:detail', args= (a.id,)))

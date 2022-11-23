@@ -20,8 +20,8 @@ class Product(models.Model):
 
 class Comment(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    auth_name = models.CharField('Author', max_length=50)
+    author = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
     comm_text = models.CharField("Text", max_length=200)
 
     def __str__(self):
-        return self.auth_name
+        return str(self.author)
