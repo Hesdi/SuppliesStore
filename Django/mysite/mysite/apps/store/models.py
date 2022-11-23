@@ -24,4 +24,4 @@ class Comment(models.Model):
     comm_text = models.CharField("Text", max_length=200)
 
     def __str__(self):
-        return str(self.author)
+        return self.author

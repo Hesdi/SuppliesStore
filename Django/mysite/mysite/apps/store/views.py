@@ -14,7 +14,7 @@ def index(request):
 def add_product(request):
     new_product = Product(product_name=request.POST['prod_name'], product_description=request.POST['prod_text'])
     new_product.save()
-    return HttpResponseRedirect(reverse('store:adding'), {'new_product': new_product})
+    return HttpResponseRedirect(reverse('store:index'), {'new_product': new_product})
 
 
 def test(request):
